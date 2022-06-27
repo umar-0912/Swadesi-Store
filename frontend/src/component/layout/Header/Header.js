@@ -1,6 +1,7 @@
 import React from "react";
 import { ReactNavbar } from "overlay-navbar";
 import logo from "../../../images/logo.png";
+import {FaUserCircle, FaSearch, FaCartPlus} from "react-icons/fa"
 
 const options = {
   burgerColorHover: "red",
@@ -33,6 +34,12 @@ const options = {
   searchIconColorHover: "rgb(17, 91, 108)",
   cartIconColorHover: "rgb(17, 91, 108)",
   cartIconMargin: "1vmax",
+  ProfileIconElement: FaUserCircle,
+  profileIcon: `${true}`,
+  SearchIconElement: FaSearch,
+  searchIcon: `${true}`,
+  CartIconElement: FaCartPlus,
+  cartIcon: `${true}`,
 };
 
 const Header = () => {
